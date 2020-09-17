@@ -28,7 +28,7 @@ int main(void) {
   char *nIN = readline("Enter an int: ");
   int n = atof(nIN);
   int nOUT = sum_n(n);
-  printf("sum is: %d.\n", nOUT);
+  printf("sum is %d.\n", nOUT);
  
   char *sIN = readline("Enter a string: ");
   print_n(sIN, n);
